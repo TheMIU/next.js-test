@@ -9,3 +9,16 @@ body {
   background-color: black;
   color: white;
 }
+
+.row {
+  padding: 1em;
+  border: 1px solid rgb(51, 255, 0);
+  background-color: rgba(51, 255, 0, 0.103);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
