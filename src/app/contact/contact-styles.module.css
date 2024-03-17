@@ -1,0 +1,13 @@
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: rgb(255, 0, 0);
+    transition: 1s;
+}
+
+#heading {
+    color: yellow;
+}
