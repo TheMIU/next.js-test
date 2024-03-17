@@ -1,0 +1,12 @@
+.product_row {
+    padding: 1em;
+    border: 1px solid rgb(255, 208, 0);
+    background-color: rgba(255, 208, 0, 0.103);
+}
+
+.product_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 80vh;
+}
