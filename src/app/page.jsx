@@ -1,10 +1,12 @@
 import Link from "next/link";
+import Button from "./(components)/Button";
 
 export default function Home() {
   return (
     <>
       <div>
         <h1>Hello</h1>
+        <Button />
         <li> <Link href="/about">About</Link> </li>
         <li> <Link href="/contact">Contact</Link> </li>
         <li> <Link href="/products">Products</Link></li>
