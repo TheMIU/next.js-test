@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Button from "./(components)/Button";
+import EventsTest from "./(components)/EventsTest";
 
 export default function Home() {
   return (
@@ -13,6 +14,8 @@ export default function Home() {
         <li> <Link href="/services">Services</Link></li>
 
         <li><Link href="https://nextjs.org/" target="_blank">Next js site</Link></li>
+
+        <EventsTest/>
       </div>
     </>
   );
